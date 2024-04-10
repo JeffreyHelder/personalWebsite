@@ -1,4 +1,4 @@
-import TemplateContainer from "../components/containers/templateContainer";
+import TemplateContainer from "../components/layout/containers/templateContainer";
 import TemplateComponent from "../components/templateComponent";
 
 export default function TemplateSection({
