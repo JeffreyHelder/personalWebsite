@@ -1,11 +1,17 @@
+import Footer from "./components/layout/footer";
+import Header from "./components/layout/header";
+import TemplateSection from "./sections/templateSection";
+
 function App() {
   return (
     <div className="w-screen max-w-screen h-screen bg-gray-800">
-      <header className="w-full bg-white px-5 py-4">
-        <h1>This is my start point</h1>
-      </header>
+      <Header />
+      <main>
+        <TemplateSection id="template-section"/>
+      </main>
+      <Footer />
     </div>
   );
 }
-
+ 
 export default App;
