@@ -1,5 +1,5 @@
 # Personal Website
-This is my personal website where I awkwardly talk about myself, gloat a little bit, and showcase some of my favourite work.
+This is my personal website where I awkwardly talk about myself, and showcase some of my favourite work.
 
 ## Authour
 Jeffrey Helder, aliases: Tellemore, Tellemore The Developer
