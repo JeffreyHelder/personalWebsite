@@ -11,7 +11,7 @@ const sectionTitles = {
     },
     contact: {
         title: "Contact Me",
-        subtitle: "Here's a collection of pieces I've made."
+        subtitle: "Use this awesome form to get a hold of me."
     },
     about: {
         title: 'About Me',
