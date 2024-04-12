@@ -1,6 +1,11 @@
-const NavItem = (props: {label: string, link: string}) => {
+type NavItemProps = {
+    label: string,
+    link: string
+}
+
+const NavItem = ({label, link}: NavItemProps) => {
     return(
-        <li><a className="text-indigo-300 hover:underline" href={props.link}>{props.label}</a></li>
+        <li><a className="text-indigo-300 hover:underline" href={link}>{label}</a></li>
     )
 }
 
@@ -30,8 +35,8 @@ export default function Header() {
             </div>
             <nav>
                 <ul className="flex flex-row gap-4 justify-center items-center">
-                    <NavItem label="About Me" link="#about"/>
                     <NavItem label="My Work" link="#portfolio"/>
+                    <NavItem label="About Me" link="#about"/>
                     <NavItem label="Contact" link="#contact"/>
                 </ul>
             </nav>

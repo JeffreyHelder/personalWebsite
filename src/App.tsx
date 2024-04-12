@@ -1,5 +1,6 @@
 import Footer from "./components/layout/footer";
 import Header from "./components/layout/header";
+import GoalsSection from "./sections/Goals";
 import AboutSection from "./sections/About";
 import ContactSection from "./sections/Contact";
 import HeroSection from "./sections/Hero";
@@ -11,8 +12,9 @@ function App() {
       <Header />
       <main className="h-full md:px-10 px-4">
         <HeroSection id="hero"/>
-        <AboutSection id="about" /> 
+        <GoalsSection id="goals" /> 
         <WorkSection id="portfolio"/>
+        <AboutSection id="about" /> 
         <ContactSection id="contact" />
       </main>
       <Footer />
